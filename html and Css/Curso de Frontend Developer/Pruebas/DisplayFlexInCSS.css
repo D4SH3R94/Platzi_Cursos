@@ -1,0 +1,41 @@
+.first_father {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    background-color: lightskyblue;
+}
+.first-child {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.first_father .first-child:nth-child(2n+1) {
+    background-color: purple;
+}
+.second_father {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    background-color: lightgreen;
+}
+.second_father .second-child {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.second_father .second-child:nth-child(2n+1) {
+    background-color: purple;
+}

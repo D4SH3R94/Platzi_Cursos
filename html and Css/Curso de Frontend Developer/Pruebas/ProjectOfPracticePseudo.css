@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(25, 32, 48);
+    padding: 2rem;
+    color: thistle;
+}
+ul > li:hover{
+    color:whitesmoke;
+}
+ul > li::after{
+    content: ' ►';
+    color: whitesmoke;
+} 

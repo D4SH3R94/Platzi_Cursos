@@ -1,0 +1,12 @@
+.header_div{
+    background-color: aliceblue;
+}
+#navbar_id{
+    color: blue;
+    background-color: antiquewhite;
+}
+a[href="file:///C:/Users/migue/OneDrive/Desktop/Cosas/Programing%20Studies/Platzi%20cursos/html%20and%20Css/Curso%20de%20Frontend%20Developer/Pruebas/BasicSelectorsAndCombinators.html"]{
+    color: brown;
+    background-color: blueviolet;
+    font-style: italic;
+}

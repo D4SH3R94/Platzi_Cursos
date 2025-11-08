@@ -1,0 +1,25 @@
+.nav_div{
+    background-color: antiquewhite;
+}
+.section_div_first{
+    background-color: aqua;
+}
+.section_div_second{
+    background-color: aquamarine;
+}
+.article_div_first{
+    background-color: azure;
+}
+.article_div_second{
+    background-color: beige;
+}
+.aside_div_first{
+    background-color: bisque;
+}
+.aside_div_second{
+    background-color: black;
+    color: white;
+}
+.footer_div{
+    background-color: blanchedalmond;
+}

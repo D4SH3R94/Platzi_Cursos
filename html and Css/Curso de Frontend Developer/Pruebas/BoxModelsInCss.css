@@ -1,0 +1,17 @@
+div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid green;
+    margin: 10px;
+}
+.second_box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid green;
+    margin: 20px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+*{
+    background-color: pink;
+}
+div h1,ul,li {
+    background-color: aqua;
+}
+div h1:hover,
+ul:hover,
+li:hover {
+    color: red;
+    font-style: italic;
+}
+.first_section_div p:nth-child(2){
+    color: blueviolet;
+}
+.first_section_div p:nth-child(2)::first-letter{
+    color: lightcoral;
+}
+p::before{
+    content: "****";
+}
+.first_section_div p:nth-child(1):first-line{
+    color: greenyellow;
+}
+::placeholder{
+    color: rebeccapurple;
+}

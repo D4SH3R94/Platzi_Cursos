@@ -1,0 +1,18 @@
+div{
+    background-color: aqua;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
+a{
+    background-color: aquamarine;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
+button{
+    background-color: blue;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
