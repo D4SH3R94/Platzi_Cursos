@@ -45,7 +45,11 @@
             font-weight: bold;
             margin-bottom: 4px;
         }
-        .secundary-button{
+        .value{
+            font-size: var(--sm);
+            color: var(--very-light-pink);
+        }
+        .secondary-button{
             background-color: var(--white);
             border-radius: 8px;
             color: var(--hospital-green);
@@ -63,7 +67,7 @@
             margin-bottom: 30px;
         }
         @media (max-width: 640px){
-            .primary-button{
+            .secondary-button{
                 position: fixed;
                 bottom: 22px;
                 left: 0;
