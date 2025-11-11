@@ -45,16 +45,18 @@
             font-weight: bold;
             margin-bottom: 4px;
         }
-        .primary-button{
-            background-color: var(--hospital-green);
+        .secundary-button{
+            background-color: var(--white);
             border-radius: 8px;
-            border: none;
-            color: var(--white);
+            color: var(--hospital-green);
             width: 100%;
             cursor: pointer;
             font-size: var(--md);
             font-weight: bold;
             height: 50px;
+            border-color: var(--hospital-green);
+            border-style: double;
+            margin-top: 40px;
         }
         .login-button{
             margin-top: 14px;
