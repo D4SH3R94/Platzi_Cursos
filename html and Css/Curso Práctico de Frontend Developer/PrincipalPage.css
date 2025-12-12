@@ -19,6 +19,7 @@
             grid-template-columns: repeat(auto-fill, 240px);
             gap: 26px;
             align-items: start;
+            place-content: center;
         }
         .product-card{
             width: 240px;
