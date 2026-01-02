@@ -32,15 +32,16 @@
             width: 100%;
             height: 80px;
             /* background-color: var(--text-input-field); */
-            margin-bottom: 0px;
+            margin-bottom: 24px;
             border-radius: 4px;
             display: grid;
-            grid-template-columns: 1fr auto auto;
+            grid-template-columns: 1fr auto;
             align-items: center;
         }
         .order-title-line p:first-child {
             display: flex;
             flex-direction: column;
+            margin-left: 16px;
         }
         .order-title-line p:first-child span{
             font-size: var(--sm);
@@ -51,15 +52,13 @@
             color: var(--dark);
         }
         .order-title-line p:first-child span:last-child{
+            font-weight: bold;
             color: var(--very-light-pink);
         }
         .order-title-line p:nth-child(2){
             font-weight: bold;
             padding-right: 16px;
             font-size: var(--md);
-        }
-        .order-title-line img {
-            margin-left: 12px;
         }
         .responsive-nav-bar {
             display: none;
