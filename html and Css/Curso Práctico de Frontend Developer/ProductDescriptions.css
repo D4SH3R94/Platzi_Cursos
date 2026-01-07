@@ -1,0 +1,148 @@
+:root {
+            --black:#000000;
+            --white: #FFFFFF;
+            --very-light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --dark: #232830;
+            --hospital-green: #ACD9B2;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            font-size: 62.5%;
+        }
+        .aside-big-container {
+            width: 30%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            height: 100vh;
+            border: 1px solid var(--very-light-pink);
+        }
+        .aside-container-upper {
+            height: 60%;
+            border-bottom: 1px solid var(--very-light-pink);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            border-radius: 16px;
+        }
+        .product-img {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        .close-icon {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            width: 24px;
+            height: 24px;
+            background-color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border: 1px solid var(--very-light-pink);
+            padding: 16px;
+        }
+        .bici {
+            width: 100%;
+            height: 100%;
+        }
+        .doc-container {
+            display: flex;
+            width: 40px;
+            height: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .doc-container div {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            margin: 0 2px;
+        }
+        .big-doc-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .aside-container-down {
+            height: 40%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .doc-container div:nth-child(1) {
+            background-color: var(--dark);
+        }
+        .doc-container div:nth-child(2) {
+            background-color: var(--very-light-pink);
+        }
+        .doc-container div:nth-child(3) {
+            background-color: var(--text-input-field);
+        }
+        .product-info {
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .price-product {
+            font-size: var(--lg);
+            font-weight: 700;
+            color: var(--dark);
+            margin: 0;
+        }
+        .name-product {
+            font-size: var(--md);
+            font-weight: 300;
+            color: var(--dark);
+            margin: 0;
+        }
+        .description-product {
+            font-size: var(--sm);
+            font-weight: 300;
+            color: var(--dark);
+            margin-top: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .add-to-cart-button {
+            margin-top: 80px;
+            background-color: var(--hospital-green);
+            border: none;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: var(--md);
+            font-weight: 700;
+            color: var(--white);
+            cursor: pointer;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media (max-width: 960px) {
+            .close-icon {
+                display: none;
+            }
+             .aside-big-container {
+                position: static;
+                width: 100%;
+                height: 100vh;
+                border: none;
+            }
+        }

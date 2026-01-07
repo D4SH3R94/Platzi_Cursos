@@ -43,6 +43,12 @@
             margin-left: auto;
             padding: 0;
         }
+        .nav-ul-left li a:hover {
+            color: var(--hospital-green);
+            border: 1px solid var(--hospital-green);
+            border-radius: 8px;
+            padding: 8px 16px;
+        }
         .nav-ul-left li {
             font-size: var(--md);
             color: var(--very-light-pink);
