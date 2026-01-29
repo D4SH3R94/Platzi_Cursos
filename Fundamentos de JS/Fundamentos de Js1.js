@@ -69,9 +69,9 @@ const valorAbsoluto = Math.abs(-10); //Valor absoluto
 console.log(PI, raizCuadrada, numeroAleatorio, valorAbsoluto);
 
 //Conversion de tipos
-//Explicit Type Casting
+//Explicit Type Casting and Coercion
 const stringValue = '42';
-const integer = parseInt(stringValue); //Convierte a entero
+const integer = parseInt(stringValue); //Convierte a entero 
 console.log(integer); //42
 console.log(typeof integer); //number
 
@@ -79,3 +79,66 @@ const floatString = '3.14';
 const floatNumber = parseFloat(floatString); //Convierte a numero decimal
 console.log(floatNumber); //3.14
 console.log(typeof floatNumber); //number
+
+const binaryString = '1010';
+const binaryNumber = parseInt(binaryString, 2); //Convierte de binario a decimal
+console.log(binaryNumber); //10
+console.log(typeof binaryNumber); //number
+
+//Implicit Type Coercion and Casting
+const resultadoSuma = '5' + 10; //Concatena como string
+console.log(resultadoSuma); //510
+console.log(typeof resultadoSuma); //string
+
+const sumWithBoolean = 5 + true; //true se convierte a 1
+const  stringWithBoolean = '3' + true; // true se convierte a 'true'
+console.log(stringWithBoolean); //3true
+console.log(typeof stringWithBoolean); //string
+console.log(sumWithBoolean); //6
+console.log(typeof sumWithBoolean); //number
+
+const booleanValue = true;
+const stringValue1 = '10';
+const numberValue = 5;
+
+console.log(booleanValue + numberValue); //6
+console.log(typeof (booleanValue + numberValue)); //number
+console.log(stringValue1 + booleanValue); //10true
+console.log(typeof (stringValue1 + booleanValue)); //string
+console.log(stringValue1 + numberValue); //105
+console.log(typeof (stringValue1 + numberValue)); //string
+console.log(booleanValue + booleanValue); //2
+console.log(typeof (booleanValue + booleanValue)); //number
+console.log(stringValue1 + stringValue1); //1010    
+console.log(typeof (stringValue1 + stringValue1)); //string 
+console.log(numberValue + numberValue); //10
+
+//Operadores de comparacion
+let a = 10;
+let b = '10';   
+console.log(a == b); //true (valor)
+console.log(a === b); //false (valor y tipo)
+console.log(a != b); //false (valor)
+console.log(a !== b); //true (valor y tipo)
+console.log(a > 5); //true
+console.log(a < 15); //true
+console.log(a >= 10); //true
+console.log(a <= 10); //true 
+
+//Operadores logicos
+let x = true;
+let y = false;  
+console.log(x && y); //false (AND)
+console.log(x || y); //true (OR)
+console.log(!x); //false (NOT)
+console.log(!y); //true (NOT)
+
+//Estrucuras condicionales
+let edad = 18;
+if (edad < 18) {
+    console.log('Menor de edad');
+} else if (edad === 18) {
+    console.log('Justo en la mayoria de edad');
+} else {
+    console.log('Mayor de edad');
+}
