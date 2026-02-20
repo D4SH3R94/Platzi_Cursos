@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Project_MarketPlace.css">
+    <script src="Project_MarketPlace.js" defer></script>
+    <title>Project MarketPlace</title>
+</head>
+<body>
+    <div class="first_page">
+        <div class="first_page_inner">
+            <div class="main_sign">
+                <h1 class="first_sentence">Market</h1>
+                <h1 class="second_sentence">Place</h1>
+            </div>
+            <div class="second_div">
+                <div class="labels_containers">
+                    <label for="ropa">Ropa
+                        <input type="checkbox" id="ropa" name="ropa">
+                    </label>
+                    <label for="tecnologia">Tecnología
+                        <input type="checkbox" id="tecnologia" name="tecnologia">
+                    </label>
+                    <label for="calzado">Calzado
+                        <input type="checkbox" id="calzado" name="calzado">
+                    </label>
+                    <label for="perfumes">Perfumes
+                        <input type="checkbox" id="perfumes" name="perfumes">
+                    </label>
+                </div>
+                <form action="" class="search_bar">
+                    <input type="search" placeholder="Seleccione los botones para ver los productos de las tiendas deseadas. O puede en cambio poner las palabras Ropa, Calzado etc..." name="search_view" id="selectionSearch_view">
+                    <button type="submit" class="button_mostrar">Mostrar</button>
+                </form>
+            </div>
+            <button class="backButton" id="backButton">Back to Stores</button>
+        </div>
+    </div>
+    <div class="second_page">
+        <div class="textDescription_container">
+            <h1 class="storeSelection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quidem nihil earum.</h1>
+            <p class="discountDetails">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque nostrum soluta!</p>
+        </div>
+        <div class="products_container" id="products_container">
+            <div class="cardContainer">
+                <figure>
+                    <img src="./media/Calzados/adidas_curve.jpg" alt="productImage">
+                </figure>
+                <div class="productDetails">
+                    <p class="productName">Name:</p>
+                    <p  class="details">Details:</p>
+                    <button class="descButton" type="button">
+                        <img src="./media/down-chevronsm.png" alt="arrowDown"></button>
+                    <div>
+                        <p class="productPrice">$00.00</p>
+                        <button class="addButton">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="backButtonSecond" id="backButtonSecond">Back to product</button>
+        <button class="showCart">Show Cart</button>
+    </div>
+    <div class="third_page">
+        <div class="cartContainer">
+            <div class="littleCartContainer">
+                <div class="productsCartContainer">
+                    <figure>
+                        <img src="./media/Perfum/Chanel_orange.jpg" alt="productImage">
+                    </figure>
+                    <div class="productDetailsCart">
+                        <p class="productNameCart">Name:</p>
+                        <div>
+                            <p class="productPriceCart">$00.00</p>
+                            <button class="removeButton">Remove from Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cartDetailsContainer">
+            <div class="firstText">
+                <h1 class="cartStores">Has seleccionado productos de las siguientes tiendas: </h1>
+                <h2 class="cartProduct">Estos son los productos seleccionados: </h2>
+                    <div class="provisionalProductsNames"></div>
+                <p class="discountStores">Estos son los descuentos según la tienda: </p>
+            </div>
+            <div class="secondText">
+                <p class="cartStoresDetails">El descuento final aplicado por la aplicacion y la compra de diferentes productos y diferentes tienda es de: </p>
+                <p class="finalDiscount"></p>
+                <p class="finalPriceDetails">Total a pagar:</p>
+                <p class="finalPrice"></p>
+            </div>
+            <button class="finishPurchaseButton">Finalizar Compra</button>
+        </div>
+    </div>
+</body>
+</html>
